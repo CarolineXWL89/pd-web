@@ -45,11 +45,13 @@ def home(request):
 
 #Committee Information Home Page
 def committees(request):
+	#Pranati
 
 	return render(request, 'basic_pd_web/02_committee_breakdown.html')
 
 #alumni
 def alumni(request):
+	#Pranati
 
 	return render(request, 'basic_pd_web/03_alums.html')
 
@@ -80,16 +82,19 @@ def what_we_do(request):
 
 #scholars home page
 def scholars_home(request):
+	#Pranati
 
 	return render(request, 'basic_pd_web/09_scholars_home.html')
 
 #pd old resources/relevant
 def pd_resources(request):
+	#Pranati
 
 	return render(request, 'basic_pd_web/10_pd_resources_archive.html')
 
 #new current resources
 def new_resources(request):
+	#Pranati
 
 	return render(request, 'basic_pd_web/11_new_resources.html')
 
@@ -120,6 +125,7 @@ def opportunities(request):
 
 #recruitment resources
 def recruitment(request):
+	#Pranati
 
 	return render(request, 'basic_pd_web/17_recruitment_resources.html')
 
@@ -145,5 +151,6 @@ def profile(request):
 
 #contact us general
 def contact_us(request):
+	#Pranati
 
 	return render(request, 'basic_pd_web/22_contact_us.html')
